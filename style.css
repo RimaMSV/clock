@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  background-color: #32127a;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  border: 0.5rem dashed #bf0b1c;
+  border-radius: 0.6rem;
+}
+
+.wrapper {
+  background-color: rgba(239, 239, 239, 0.75);
+  backdrop-filter: blur(40px);
+  border-radius: 0.6rem;
+  /* border: 0.4rem dashed #cae7b9; */
+  padding: 1.8rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  font-size: 3.8rem;
+  color: #000;
+}
